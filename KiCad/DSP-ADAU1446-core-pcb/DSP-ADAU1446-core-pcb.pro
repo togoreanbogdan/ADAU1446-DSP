@@ -1,4 +1,4 @@
-update=1/27/2017 3:43:22 PM
+update=1/30/2017 2:01:52 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=DSP-ADAU1446-core-pcb-cache
+LibName31=switches
