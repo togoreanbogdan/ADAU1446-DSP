@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:power
 LIBS:device
 LIBS:transistors
 LIBS:conn
@@ -28,8 +27,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:DSP-ADAU1446-core-pcb-cache
 LIBS:switches
+LIBS:DSP-ADAU1446-core-pcb-cache
+LIBS:w_analog
+LIBS:w_connectors
+LIBS:w_device
+LIBS:power
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

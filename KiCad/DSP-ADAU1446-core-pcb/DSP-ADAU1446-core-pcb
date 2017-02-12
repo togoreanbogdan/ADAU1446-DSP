@@ -1,0 +1,29 @@
+Reference, Quantity, Value, Footprint, Datasheet, Mfr. Part No.
+C1 C10 C11 C12 C13 C14 C15 C16 C17 C2 C20 C22 C26 C27 C28 C29 C3 C30 C32 C4 C5 C6 C7 C8 ,24,0.1uF,w_smd_cap:c_0603,
+C23 ,1,33nF,w_smd_cap:c_0603,
+C24 ,1,1.8nF,w_smd_cap:c_0603,
+C33 C34 ,2,1uF,w_smd_cap:c_0805,
+C18 C19 C21 C25 C31 C9 ,6,10uF,w_smd_cap:c_elec_4x5.3,,EEE-FC1C100R
+D1 ,1,MBR0530T1G,w_smd_diode:sod123,
+IC1 ,1,24AA256,w_smd_dil:msoic-8,
+J1 ,1,POW_CONN,w_conn_mkds:mkds_1,5-2,
+JP1 ,1,SELFBOOT,w_pin_strip:pin_socket_2,
+L1 L2 L3 ,3,600R@100MHz,w_smd_inductors:inductor_smd_0603,
+P1 ,1,RCA,w_conn_av:rca_yellow,
+P2 P3 P4 P6 P7 ,5,CONN_02x05,w_pin_strip:pin_strip_2mm_5x2,,DS1018-02-10B2
+P5 ,1,CONN_02X05,w_pin_strip:pin_strip_2mm_5x2,,DS1018-02-10B2
+Q1 ,1,12.288MHz,w_crystal:crystal_epson,,SG-210STF 12.2880ML3
+Q2 ,1,NJT4030P,TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2,
+R1 ,1,39R,w_smd_resistors:r_0603,
+R10 R16 R4 R5 R6 ,5,10K,w_smd_resistors:r_0603,
+R12 R13 R14 R15 ,4,4K7,w_smd_resistors:r_0603,
+R2 R3 ,2,2K2,w_smd_resistors:r_0603,
+R27 ,1,100K,w_smd_resistors:r_0603,
+R7 ,1,1K,w_smd_resistors:r_0603,
+R8 ,1,1K5,w_smd_resistors:r_0603,
+R11 R17 R18 R19 R20 R21 R22 R23 R24 R25 R26 R9 ,12,75R,w_smd_resistors:r_0603,
+SW1 ,1,SW_Push_Dual,w_switch:smd_push2,
+U1 ,1,ADAU1446,w_smd_lqfp:TQFP-100,
+U2 ,1,NB3L553,w_smd_dil:msoic-8,,NB3L553DG
+U3 ,1,ADM811RARTZ,w_smd_trans:sot143B,
+U4 U5 ,2,TLV1117LV33,TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2,
