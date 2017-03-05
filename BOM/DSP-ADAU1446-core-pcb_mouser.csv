@@ -1,0 +1,29 @@
+Reference;Quantity;Value;Footprint;Datasheet;Mfr. Part No.;TME;Description;Price 1;Min\Mult;Stock;Quoted Part Number;Order Quantity;Order Price
+C1 C10 C11 C12 C13 C14 C15 C16 C17 C2 C20 C22 C26 C27 C28 C29 C3 C30 C32 C4 C5 C6 C7 C8;24;0.1uF;w_smd_cap:c_0603;;06033C104K4T2A;;Multilayer Ceramic Capacitors MLCC - SMD/SMT Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V .1uF X7R 0603 10% Tol;0,17 lei;1\1;;581-06033C104K4;24;0,17 lei
+C23;1;33nF;w_smd_cap:c_0603;;06033C333JAT2A;;Multilayer Ceramic Capacitors MLCC - SMD/SMT Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V .033uF X7R 0603 5% Tol;0,42 lei;1\1;10.760;581-06033C333J;1;0,42 lei
+C24;1;1.8nF;w_smd_cap:c_0603;;06035C182KAT2A;;Multilayer Ceramic Capacitors MLCC - SMD/SMT Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 1800pF X7R 0603 10% Tol;0,42 lei;1\1;14.215;581-06035C182K;1;0,42 lei
+C33 C34;2;1uF;w_smd_cap:c_0805;;08053C105KAT4A;;Multilayer Ceramic Capacitors MLCC - SMD/SMT Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V 1uF X7R 0805 10% Tol;0,42 lei;1\1;4.233;581-08053C105KAT4A;2;0,42 lei
+C18 C19 C21 C25 C31 C9;6;10uF;w_smd_cap:c_elec_4x5.3;;EEE-FC1C100R;;Aluminum Electrolytic Capacitors - SMD Aluminum Electrolytic Capacitors - SMD 10UF 16V ELECT FC SMD;1,49 lei;1\1;15.348;667-EEE-FC1C100R;6;1,49 lei
+D1;1;MBR0530T1G;w_smd_diode:sod123;;MBR0530T1G;;Schottky Diodes & Rectifiers Schottky Diodes & Rectifiers 0.5A 30V;1,49 lei;1\1;14.083;863-MBR0530T1G;1;1,49 lei
+IC1;1;24AA256;w_smd_dil:msoic-8;;24AA256-I/SN;;EEPROM EEPROM 32kx8 - 1.8V;3,91 lei;1\1;1.038;579-24AA256-I/SN;1;3,91 lei
+J1;1;POW_CONN;w_conn_mkds:mkds_1;;1871966;;Fixed Terminal Blocks Fixed Terminal Blocks MKDSNV 1 5/ 2-5 08;3,91 lei;1\1;94;651-1871966;1;3,91 lei
+JP1;1;SELFBOOT;w_pin_strip:pin_socket_2;;;;;;;;;;
+L1 L2 L3;3;600R@100MHz;w_smd_inductors:inductor_smd_0603;;MPZ1608S601A;;Ferrite Beads Ferrite Beads Ferrite Chip Beads;0,42 lei;1\1;125.703;810-MPZ1608S601A;3;0,42 lei
+P1;1;RCA;w_conn_av:rca_yellow;;;;;;;;;;
+P2 P3 P4 P6 P7;5;CONN_02x05;w_pin_strip:pin_strip_2mm_5x2;;;DS1018-02-10B2;;;;;;;
+P5;1;CONN_02X05;w_pin_strip:pin_strip_2mm_5x2;;;DS1018-02-10B2;;;;;;;
+Q1;1;12.288MHz;w_crystal:crystal_epson;;SG-210STF 12.2880ML3;;Standard Clock Oscillators Standard Clock Oscillators 12.288MHz 50ppm -40C +85C;6,12 lei;1\1;65;732-SG210STF12.288L3;1;6,12 lei
+Q2;1;FMMT734TA;TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2;;FMMT734TA;;Darlington Transistors Darlington Transistors PNP Darlington;2,34 lei;1\1;5.335;522-FMMT734TA;1;2,34 lei
+R1;1;39R;w_smd_resistors:r_0603;;CRCW060339R0FKEA;;Thick Film Resistors - SMD Thick Film Resistors - SMD 1/10watt 39ohms 1%;0,42 lei;1\1;9.457;71-CRCW0603-39-E3;1;0,42 lei
+R10 R16 R4 R5 R6;5;10K;w_smd_resistors:r_0603;;CRCW060310K0FKEA;;Thick Film Resistors - SMD Thick Film Resistors - SMD 1/10watt 10Kohms 1%;0,42 lei;1\1;1.410.566;71-CRCW0603-10K-E3;5;0,42 lei
+R12 R13 R14 R15;4;4K7;w_smd_resistors:r_0603;;CRCW06034K70FKEA;;Thick Film Resistors - SMD Thick Film Resistors - SMD 1/10watt 4.7Kohms 1%;0,42 lei;1\1;309.912;71-CRCW0603-4.7K-E3;4;0,42 lei
+R2 R3;2;2K2;w_smd_resistors:r_0603;;CRCW06032K20FKEA;;Thick Film Resistors - SMD Thick Film Resistors - SMD 1/10watt 2.2Kohms 1%;0,42 lei;1\1;30.560;71-CRCW0603-2.2K-E3;2;0,42 lei
+R27;1;100K;w_smd_resistors:r_0603;;CRCW060310K0FKEA;;Thick Film Resistors - SMD Thick Film Resistors - SMD 1/10watt 10Kohms 1%;0,42 lei;1\1;1.410.566;71-CRCW0603-10K-E3;1;0,42 lei
+R7;1;1K;w_smd_resistors:r_0603;;CRCW06031K00FKEA;;Thick Film Resistors - SMD Thick Film Resistors - SMD 1/10watt 1.0Kohms 1%;0,42 lei;1\1;401.678;71-CRCW0603-1.0K-E3;1;0,42 lei
+R8;1;1K5;w_smd_resistors:r_0603;;CRCW06031K50FKEA;;Thick Film Resistors - SMD Thick Film Resistors - SMD 1/10watt 1.5Kohms 1%;0,42 lei;1\1;146.919;71-CRCW0603-1.5K-E3;1;0,42 lei
+R11 R17 R18 R19 R20 R21 R22 R23 R24 R25 R26 R9;12;75R;w_smd_resistors:r_0603;;CRCW060375R0FKEA;;Thick Film Resistors - SMD Thick Film Resistors - SMD 1/10watt 75ohms 1%;0,19 lei;1\1;84.040;71-CRCW0603-75-E3;12;0,19 lei
+SW1;1;SW_Push_Dual;w_switch:smd_push2;;SKQGAKE010;;Tactile Switches Tactile Switches 50 mAmps at 12 Volts;0,68 lei;1\1;;688-SKQGAKE010;1;0,68 lei
+U1;1;ADAU1446;w_smd_lqfp:TQFP-100;;;;;;;;;;
+U2;1;NB3L553;w_smd_dil:msoic-8;;NB3L553DG;;Clock Buffer Clock Buffer AHF LW SKEW 1:4 CLCK;8,10 lei;1\1;625;863-NB3L553DG;1;8,10 lei
+U3;1;ADM811RARTZ;w_smd_trans:sot143B;;ADM811RARTZ-REEL7;;Supervisory Circuits Supervisory Circuits 5V CMOS MPU IC Logic Low Reset Bar Output;6,12 lei;1\1;1.266;584-ADM811RARTZ-R7;1;6,12 lei
+U4 U5;2;TLV1117LV33;TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2;;TLV1117LV33DCYR;;LDO Voltage Regulators LDO Voltage Regulators 1A,Pos Fix Vltg LDO Linear Reg;2,59 lei;1\1;8.267;595-TLV1117LV33DCYR;2;2,59 lei
