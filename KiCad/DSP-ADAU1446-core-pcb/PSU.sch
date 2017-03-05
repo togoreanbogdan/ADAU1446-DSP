@@ -94,17 +94,6 @@ $EndComp
 Text GLabel 7350 1400 2    60   Input ~ 0
 ~RESET
 $Comp
-L SW_Push_Dual SW1
-U 1 1 58A189FF
-P 4550 1700
-F 0 "SW1" H 4600 1800 50  0000 L CNN
-F 1 "SW_Push_Dual" H 4550 1430 50  0000 C CNN
-F 2 "w_switch:smd_push2" H 4550 1900 50  0001 C CNN
-F 3 "" H 4550 1900 50  0000 C CNN
-	1    4550 1700
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR042
 U 1 1 58A18AAC
 P 4000 1800
@@ -217,16 +206,9 @@ Wire Wire Line
 	6900 1900 6900 1800
 Connection ~ 6900 1400
 Wire Wire Line
-	4750 1700 5500 1700
-Wire Wire Line
-	4850 1700 4850 1900
-Wire Wire Line
-	4850 1900 4750 1900
-Connection ~ 4850 1700
+	4750 1900 5200 1900
 Wire Wire Line
 	4000 1700 4350 1700
-Wire Wire Line
-	4250 1700 4250 1900
 Wire Wire Line
 	4250 1900 4350 1900
 Wire Wire Line
@@ -236,7 +218,6 @@ Wire Wire Line
 	4800 2150 5200 2150
 Wire Wire Line
 	5200 2150 5200 1700
-Connection ~ 5200 1700
 Wire Wire Line
 	5500 1400 4700 1400
 Wire Wire Line
@@ -408,4 +389,33 @@ Wire Wire Line
 	5900 3050 5900 3100
 Wire Wire Line
 	5900 3100 6050 3100
+$Comp
+L ALPS_switch SW1
+U 1 1 58BB62E8
+P 4550 1700
+F 0 "SW1" H 4600 1800 50  0000 L CNN
+F 1 "ALPS_switch" H 4550 1425 50  0000 C CNN
+F 2 "w_switch:smd_push_ALPS" H 4550 1900 50  0000 C CNN
+F 3 "" H 4550 1900 50  0000 C CNN
+	1    4550 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1700 5500 1700
+Wire Wire Line
+	4250 1900 4250 1950
+Wire Wire Line
+	4250 1950 4850 1950
+Wire Wire Line
+	4850 1950 4850 1900
+Connection ~ 5200 1900
+Connection ~ 4850 1900
+Wire Wire Line
+	4250 1700 4250 1650
+Wire Wire Line
+	4250 1650 4850 1650
+Wire Wire Line
+	4850 1650 4850 1700
+Wire Wire Line
+	4850 1700 4750 1700
 $EndSCHEMATC
