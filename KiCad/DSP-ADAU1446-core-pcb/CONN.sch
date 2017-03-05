@@ -284,17 +284,17 @@ F 3 "" H 5150 1500 50  0000 C CNN
 	1    5150 1500
 	-1   0    0    1   
 $EndComp
-Text GLabel 2550 1600 2    60   Input ~ 0
+Text GLabel 2550 2000 2    60   Input ~ 0
 LRCLK0
 Text GLabel 2550 1800 2    60   Input ~ 0
 BCLK0
-Text GLabel 2550 2000 2    60   Input ~ 0
+Text GLabel 2550 1600 2    60   Input ~ 0
 SDATA_IN0
-Text GLabel 2550 3000 2    60   Input ~ 0
+Text GLabel 2550 3400 2    60   Input ~ 0
 LRCLK1
 Text GLabel 2550 3200 2    60   Input ~ 0
 BCLK1
-Text GLabel 2550 3400 2    60   Input ~ 0
+Text GLabel 2550 3000 2    60   Input ~ 0
 SDATA_IN1
 Text GLabel 8900 1600 0    60   Input ~ 0
 LRCLK2
@@ -315,54 +315,54 @@ MP5
 $Comp
 L R R13
 U 1 1 589F9B93
-P 6350 1650
-F 0 "R13" V 6430 1650 50  0000 C CNN
-F 1 "4K7" V 6350 1650 50  0000 C CNN
-F 2 "w_smd_resistors:r_0603" V 6280 1650 50  0001 C CNN
-F 3 "" H 6350 1650 50  0000 C CNN
-	1    6350 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L R R14
-U 1 1 589F9BF8
 P 6350 1850
-F 0 "R14" V 6430 1850 50  0000 C CNN
+F 0 "R13" V 6430 1850 50  0000 C CNN
 F 1 "4K7" V 6350 1850 50  0000 C CNN
 F 2 "w_smd_resistors:r_0603" V 6280 1850 50  0001 C CNN
 F 3 "" H 6350 1850 50  0000 C CNN
 	1    6350 1850
-	0    1    1    0   
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R14
+U 1 1 589F9BF8
+P 6350 1650
+F 0 "R14" V 6430 1650 50  0000 C CNN
+F 1 "4K7" V 6350 1650 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 6280 1650 50  0001 C CNN
+F 3 "" H 6350 1650 50  0000 C CNN
+	1    6350 1650
+	0    1    -1   0   
 $EndComp
 $Comp
 L R R12
 U 1 1 589F9C35
-P 6350 1450
-F 0 "R12" V 6430 1450 50  0000 C CNN
-F 1 "4K7" V 6350 1450 50  0000 C CNN
-F 2 "w_smd_resistors:r_0603" V 6280 1450 50  0001 C CNN
-F 3 "" H 6350 1450 50  0000 C CNN
-	1    6350 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L R R15
-U 1 1 589F9CA8
 P 6350 2050
-F 0 "R15" V 6430 2050 50  0000 C CNN
+F 0 "R12" V 6430 2050 50  0000 C CNN
 F 1 "4K7" V 6350 2050 50  0000 C CNN
 F 2 "w_smd_resistors:r_0603" V 6280 2050 50  0001 C CNN
 F 3 "" H 6350 2050 50  0000 C CNN
 	1    6350 2050
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
-Text GLabel 6700 1450 2    60   Input ~ 0
-MP0/ADC0
-Text GLabel 6700 1650 2    60   Input ~ 0
-MP1/ADC1
-Text GLabel 6700 1850 2    60   Input ~ 0
-MP2/ADC2
+$Comp
+L R R15
+U 1 1 589F9CA8
+P 6350 1450
+F 0 "R15" V 6430 1450 50  0000 C CNN
+F 1 "4K7" V 6350 1450 50  0000 C CNN
+F 2 "w_smd_resistors:r_0603" V 6280 1450 50  0001 C CNN
+F 3 "" H 6350 1450 50  0000 C CNN
+	1    6350 1450
+	0    1    -1   0   
+$EndComp
 Text GLabel 6700 2050 2    60   Input ~ 0
+MP0/ADC0
+Text GLabel 6700 1850 2    60   Input ~ 0
+MP1/ADC1
+Text GLabel 6700 1650 2    60   Input ~ 0
+MP2/ADC2
+Text GLabel 6700 1450 2    60   Input ~ 0
 MP3/ADC3
 $Comp
 L CONN_02X05 P5
@@ -555,23 +555,15 @@ Wire Wire Line
 Wire Wire Line
 	2200 1700 2200 1600
 Wire Wire Line
-	2200 1600 2550 1600
-Wire Wire Line
 	1900 1900 2200 1900
 Wire Wire Line
 	2200 1900 2200 2000
 Wire Wire Line
-	2200 2000 2550 2000
-Wire Wire Line
 	2550 3200 1900 3200
-Wire Wire Line
-	2550 3000 2200 3000
 Wire Wire Line
 	2200 3000 2200 3100
 Wire Wire Line
 	2200 3100 1900 3100
-Wire Wire Line
-	2550 3400 2200 3400
 Wire Wire Line
 	2200 3400 2200 3300
 Wire Wire Line
@@ -605,37 +597,29 @@ Wire Wire Line
 Wire Wire Line
 	5950 2000 5850 2000
 Wire Wire Line
-	6200 2050 6050 2050
-Wire Wire Line
 	6050 2050 6050 1900
 Wire Wire Line
 	6050 1900 5850 1900
-Wire Wire Line
-	6200 1850 6150 1850
 Wire Wire Line
 	6150 1850 6150 1800
 Wire Wire Line
 	6150 1800 5850 1800
 Wire Wire Line
-	6200 1650 6150 1650
-Wire Wire Line
 	6150 1650 6150 1700
 Wire Wire Line
 	6150 1700 5850 1700
-Wire Wire Line
-	6200 1450 6050 1450
 Wire Wire Line
 	6050 1450 6050 1600
 Wire Wire Line
 	6050 1600 5850 1600
 Wire Wire Line
-	6700 2050 6500 2050
-Wire Wire Line
-	6700 1850 6500 1850
+	6700 1450 6500 1450
 Wire Wire Line
 	6700 1650 6500 1650
 Wire Wire Line
-	6700 1450 6500 1450
+	6700 1850 6500 1850
+Wire Wire Line
+	6700 2050 6500 2050
 Wire Wire Line
 	6700 2250 5950 2250
 Wire Wire Line
@@ -781,17 +765,6 @@ F 3 "" H 3500 5450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BNC P1
-U 1 1 58A241B8
-P 1450 5450
-F 0 "P1" H 1460 5570 50  0000 C CNN
-F 1 "RCA" V 1560 5390 50  0000 C CNN
-F 2 "w_conn_av:rca_yellow" H 1450 5450 50  0001 C CNN
-F 3 "" H 1450 5450 50  0000 C CNN
-	1    1450 5450
-	-1   0    0    -1  
-$EndComp
-$Comp
 L R R11
 U 1 1 58A24747
 P 1950 5700
@@ -846,7 +819,36 @@ F 3 "" H 8050 4900 50  0000 C CNN
 $EndComp
 Connection ~ 8050 4950
 Wire Wire Line
-	1600 5450 3350 5450
+	1350 5450 3350 5450
 Wire Wire Line
-	1450 5650 1450 5700
+	1450 5550 1450 5700
+Wire Wire Line
+	2200 1600 2550 1600
+Wire Wire Line
+	2200 2000 2550 2000
+Wire Wire Line
+	2200 3000 2550 3000
+Wire Wire Line
+	2200 3400 2550 3400
+$Comp
+L CONN_01X02 P1
+U 1 1 58B17F86
+P 1150 5500
+F 0 "P1" H 1150 5650 50  0000 C CNN
+F 1 "CONN_01X02" V 1250 5500 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 1150 5500 50  0001 C CNN
+F 3 "" H 1150 5500 50  0000 C CNN
+	1    1150 5500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 5550 1450 5550
+Wire Wire Line
+	6200 1450 6050 1450
+Wire Wire Line
+	6150 1650 6200 1650
+Wire Wire Line
+	6150 1850 6200 1850
+Wire Wire Line
+	6050 2050 6200 2050
 $EndSCHEMATC
