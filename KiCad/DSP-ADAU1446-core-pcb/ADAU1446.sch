@@ -99,18 +99,18 @@ Text GLabel 5550 4200 0    60   Input ~ 0
 LRCLK1
 Text GLabel 5000 4300 0    60   Input ~ 0
 BCLK1
-Text GLabel 5550 4500 0    60   Input ~ 0
-LRCLK2
-Text GLabel 5000 4600 0    60   Input ~ 0
-BCLK2
-Text GLabel 5550 4800 0    60   Input ~ 0
-LRCLK3
-Text GLabel 5000 4900 0    60   Input ~ 0
-BCLK3
-Text GLabel 9900 4700 2    60   Input ~ 0
-SDATA_OUT0
-Text GLabel 10600 4800 2    60   Input ~ 0
-SDATA_OUT1
+Text GLabel 5550 6300 0    60   Input ~ 0
+LRCLK8
+Text GLabel 5000 6400 0    60   Input ~ 0
+BCLK8
+Text GLabel 5550 5100 0    60   Input ~ 0
+LRCLK4
+Text GLabel 5000 5200 0    60   Input ~ 0
+BCLK4
+Text GLabel 10100 5100 2    60   Input ~ 0
+SDATA_OUT4
+Text GLabel 10100 5500 2    60   Input ~ 0
+SDATA_OUT8
 $Comp
 L R R10
 U 1 1 588F383C
@@ -556,12 +556,12 @@ F 3 "" H 7650 6750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9400 4900
-NoConn ~ 9400 5000
-NoConn ~ 9400 5100
+NoConn ~ 9400 4700
+NoConn ~ 9400 4800
 NoConn ~ 9400 5200
 NoConn ~ 9400 5300
 NoConn ~ 9400 5400
-NoConn ~ 9400 5500
+NoConn ~ 9400 5000
 NoConn ~ 5900 7700
 NoConn ~ 5900 7800
 NoConn ~ 5900 7900
@@ -569,16 +569,16 @@ NoConn ~ 5900 8000
 NoConn ~ 5900 8100
 NoConn ~ 5900 8200
 NoConn ~ 5900 8300
-NoConn ~ 5900 5100
-NoConn ~ 5900 5200
+NoConn ~ 5900 4500
+NoConn ~ 5900 4600
 NoConn ~ 5900 5400
 NoConn ~ 5900 5500
 NoConn ~ 5900 5700
 NoConn ~ 5900 5800
 NoConn ~ 5900 6000
 NoConn ~ 5900 6100
-NoConn ~ 5900 6300
-NoConn ~ 5900 6400
+NoConn ~ 5900 4800
+NoConn ~ 5900 4900
 NoConn ~ 5900 6600
 NoConn ~ 5900 6700
 NoConn ~ 5900 6900
@@ -930,18 +930,6 @@ Wire Wire Line
 	5900 4200 5550 4200
 Wire Wire Line
 	5900 4300 5000 4300
-Wire Wire Line
-	5900 4500 5550 4500
-Wire Wire Line
-	5900 4600 5000 4600
-Wire Wire Line
-	5900 4800 5550 4800
-Wire Wire Line
-	5900 4900 5000 4900
-Wire Wire Line
-	9900 4700 9400 4700
-Wire Wire Line
-	10600 4800 9400 4800
 Wire Wire Line
 	9400 8050 9800 8050
 Wire Wire Line
@@ -1329,4 +1317,16 @@ $EndComp
 Connection ~ 4850 9950
 Wire Wire Line
 	4850 10250 4850 10200
+Wire Wire Line
+	5550 6300 5900 6300
+Wire Wire Line
+	5900 6400 5000 6400
+Wire Wire Line
+	10100 5100 9400 5100
+Wire Wire Line
+	10100 5500 9400 5500
+Wire Wire Line
+	5550 5100 5900 5100
+Wire Wire Line
+	5000 5200 5900 5200
 $EndSCHEMATC

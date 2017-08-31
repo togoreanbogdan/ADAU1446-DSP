@@ -270,9 +270,9 @@ F 3 "" H 9200 2950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 8500 1400 0    60   ~ 0
-MCLKD0
-Text Label 8500 2800 0    60   ~ 0
 MCLKD1
+Text Label 8500 2800 0    60   ~ 0
+MCLKD0
 $Comp
 L GND #PWR034
 U 1 1 589F67FA
@@ -296,18 +296,18 @@ Text GLabel 2550 3200 2    60   Input ~ 0
 BCLK1
 Text GLabel 2550 3000 2    60   Input ~ 0
 SDATA_IN1
-Text GLabel 8900 1600 0    60   Input ~ 0
-LRCLK2
-Text GLabel 8900 1800 0    60   Input ~ 0
-BCLK2
 Text GLabel 8900 2000 0    60   Input ~ 0
-SDATA_OUT0
-Text GLabel 8900 2950 0    60   Input ~ 0
-LRCLK3
-Text GLabel 8900 3150 0    60   Input ~ 0
-BCLK3
+LRCLK4
+Text GLabel 8900 1800 0    60   Input ~ 0
+BCLK4
+Text GLabel 8900 1600 0    60   Input ~ 0
+SDATA_OUT4
 Text GLabel 8900 3350 0    60   Input ~ 0
-SDATA_OUT1
+LRCLK8
+Text GLabel 8900 3150 0    60   Input ~ 0
+BCLK8
+Text GLabel 8900 2950 0    60   Input ~ 0
+SDATA_OUT8
 Text GLabel 5000 2000 0    60   Input ~ 0
 MP4
 Text GLabel 6700 2250 2    60   Input ~ 0
@@ -579,17 +579,9 @@ Wire Wire Line
 Wire Wire Line
 	2100 2850 2100 3000
 Wire Wire Line
-	8900 1600 9050 1600
-Wire Wire Line
 	8900 1800 9050 1800
 Wire Wire Line
-	8900 2000 9050 2000
-Wire Wire Line
-	8900 2950 9050 2950
-Wire Wire Line
 	8900 3150 9050 3150
-Wire Wire Line
-	8900 3350 9050 3350
 Wire Wire Line
 	5350 2000 5000 2000
 Wire Wire Line
@@ -851,4 +843,12 @@ Wire Wire Line
 	6150 1850 6200 1850
 Wire Wire Line
 	6050 2050 6200 2050
+Wire Wire Line
+	9050 2950 8900 2950
+Wire Wire Line
+	9050 3350 8900 3350
+Wire Wire Line
+	8900 1600 9050 1600
+Wire Wire Line
+	8900 2000 9050 2000
 $EndSCHEMATC
